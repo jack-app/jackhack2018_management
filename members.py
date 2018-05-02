@@ -1,5 +1,5 @@
-import csv
-from pprint import pprint
+# import csv
+# from pprint import pprint
 import random
 
 """
@@ -25,7 +25,7 @@ members = [
  ['しょーい', 'a', True, True],
  ['しろ', 'c', True, False],
  ['あべべ', 'c', True, True],
- ['桑山 拓也', 'b', True, True],
+ ['くわ', 'b', True, True],
  ['杉野 将史', 'c', False, True],
  ['赤池 佑介', 'c', False, True],
  ['鈴木一成', 'c', False, True],
@@ -40,20 +40,27 @@ members = [
  ['itoka', 'c', False, True],
  ['杉浦 航', 'c', False, False],
  ['松下 紗也輝', 'c', False, True],
- ['和田 哲弥', 'b', False, True]
+ ['和田 哲弥', 'b', False, True],
+
+ ['梶原大進', 'a', False, False],
+ ['竹内梢', 'c', False, False],
+ ['杉野将史', 'c', False, True],
+ ['谷川亜聡', 'c', False, False]
 ]
 groups = [
     [['a', True, True], ['c', False, True], ['c', False, True], ['c', False, False]],
-    [['a', True, True], ['c', False, True], ['c', False, True], ['c', True, False]],
+    [['a', True, True], ['c', True, False], ['c', False, True], ['c', False, True], ['c', False, False]],
     [['a', True, True], ['c', True, True],  ['c', False, True], ['c', False, True]],
-    [['a', True, True], ['c', False, True], ['c', False, True]],
-    [['a', True, True], ['c', True, True],  ['c', False, True], ['c', False, False]],
+    [['a', True, True], ['c', False, True], ['c', False, True], ['c', False, False]],
+    [['a', True, True], ['c', True, True],  ['c', False, True], ['c', False, True], ['c', False, False]],
     [['b', True, True], ['b', True, True],  ['b', False, True], ['b', False, False]],
-    [['b', True, True], ['b', False, True], ['b', False, True]]
+    [['b', True, True], ['b', False, True], ['b', False, True], ['a', False, False]]
 ]
+'''
 groups2 = [
 
 ]
+'''
 made = []
 for group in groups:
     buf = []
